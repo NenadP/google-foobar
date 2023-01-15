@@ -2,7 +2,7 @@ package fuel_injection_perfection;
 
 import java.math.BigInteger;
 
-public class SolutionRecursive {
+public class RecursiveSolution {
     public static int solution(String x) {
         int[] min = {Integer.MAX_VALUE};
         countSteps(new BigInteger(x), 0, min);

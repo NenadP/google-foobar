@@ -9,7 +9,7 @@ class BigIntegerSolutionTest {
     void test1() {
         assertEquals(
                 2,
-                Solution.solution("4")
+                BigIntegerSolution.solution("4")
         );
     }
 
@@ -17,14 +17,14 @@ class BigIntegerSolutionTest {
     void test2() {
         assertEquals(
                 5,
-                Solution.solution("15")
+                BigIntegerSolution.solution("15")
         );
     }
     @Test
     void test3() {
         assertEquals(
                 6,
-                Solution.solution("26")
+                BigIntegerSolution.solution("26")
         );
     }
 
@@ -32,7 +32,7 @@ class BigIntegerSolutionTest {
     void test4() {
         assertEquals(
                 6,
-                Solution.solution("19")
+                BigIntegerSolution.solution("19")
         );
     }
 
@@ -40,7 +40,7 @@ class BigIntegerSolutionTest {
     void test5() {
         assertEquals(
                 4,
-                Solution.solution("10")
+                BigIntegerSolution.solution("10")
         );
     }
 
@@ -48,7 +48,7 @@ class BigIntegerSolutionTest {
     void test6() {
         assertEquals(
                 10,
-                Solution.solution("768")
+                BigIntegerSolution.solution("768")
         );
     }
 }

@@ -4,12 +4,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class BigIntegerSolutionRecursiveTest {
+class RecursiveSolutionTest {
     @Test
     void test1() {
         assertEquals(
                 2,
-                SolutionRecursive.solution("4")
+                RecursiveSolution.solution("4")
         );
     }
 
@@ -17,14 +17,14 @@ class BigIntegerSolutionRecursiveTest {
     void test2() {
         assertEquals(
                 5,
-                SolutionRecursive.solution("15")
+                RecursiveSolution.solution("15")
         );
     }
     @Test
     void test3() {
         assertEquals(
                 6,
-                SolutionRecursive.solution("26")
+                RecursiveSolution.solution("26")
         );
     }
 
@@ -32,7 +32,7 @@ class BigIntegerSolutionRecursiveTest {
     void test4() {
         assertEquals(
                 6,
-                SolutionRecursive.solution("19")
+                RecursiveSolution.solution("19")
         );
     }
 
@@ -40,7 +40,7 @@ class BigIntegerSolutionRecursiveTest {
     void test5() {
         assertEquals(
                 4,
-                SolutionRecursive.solution("10")
+                RecursiveSolution.solution("10")
         );
     }
 
@@ -48,7 +48,7 @@ class BigIntegerSolutionRecursiveTest {
     void test6() {
         assertEquals(
                 10,
-                SolutionRecursive.solution("768")
+                RecursiveSolution.solution("768")
         );
     }
 }

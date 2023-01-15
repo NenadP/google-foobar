@@ -2,7 +2,7 @@ package fuel_injection_perfection;
 
 import java.math.BigInteger;
 
-public class Solution {
+public class BigIntegerSolution {
     public static int solution(String x) {
         int steps = 0;
         BigInteger value = new BigInteger(x);

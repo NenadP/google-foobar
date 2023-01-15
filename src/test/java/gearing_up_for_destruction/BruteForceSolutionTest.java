@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class BruteForceBigIntegerSolutionTest {
+class BruteForceSolutionTest {
 
     @Test
     void test1() {
